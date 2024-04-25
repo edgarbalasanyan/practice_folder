@@ -1,0 +1,21 @@
+.footer{
+  width: 100%;
+  display: flex;
+  position: relative;
+  bottom: 10%;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.footer button{
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(66, 124, 124);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.footer button:hover{
+  cursor: pointer;
+  background-color: rgb(75, 173, 173);
+}

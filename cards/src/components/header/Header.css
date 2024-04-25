@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding: 20px ;
+  margin: 0 20px;
+  box-shadow: 4px 2px 2px  whitesmoke;
+}
+
+.header input{
+  font-size: large;
+  height: fit-content;
+}
+.input-wrapper{
+  display: flex;
+  flex:1;
+}
+.header button{
+  height: 4rem;
+  font-size: large;
+  background-color: lightblue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+.header button:hover{
+  cursor: pointer;
+  background-color: rgb(155, 188, 199);
+}
+.header button:active{
+  background-color: aqua;
+}

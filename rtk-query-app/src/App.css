@@ -1,0 +1,11 @@
+.input{
+  background-color: aliceblue;
+}
+.container{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  position: absolute;
+  top:40%;
+  left:35%;
+}

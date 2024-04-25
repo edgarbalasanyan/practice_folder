@@ -1,0 +1,36 @@
+.organization-container{
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(192, 192, 209) ;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.organization{
+  background:linear-gradient(#a3a3c9,rgb(192, 192, 209));
+  border: 1px solid rgb(121, 121, 146);
+  padding: 3rem;
+  border-radius: 8px;
+}
+.organization-title{
+  margin: 0;
+  font-size:4rem;
+display: flex;
+flex: 0.2;
+}
+.organization-logo{
+  display: flex;
+  justify-content: center;
+}
+.organization-logo img{
+  width: 80px;
+}
+.organization-lists ul{
+  list-style: none;
+}
+.button-back{
+  margin: 0.5rem;
+  border-radius: 5px;
+  background-color:rgb(192, 192, 209) ;
+}

@@ -1,0 +1,25 @@
+.settings-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+ }
+.settings-container{
+  border: 1px solid rgb(189, 186, 186);
+  position: absolute ;
+  right: 20px;
+  top: 60px;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: aliceblue;
+}
+.settings-list li:hover{
+  background-color: rgb(207, 207, 207);
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}

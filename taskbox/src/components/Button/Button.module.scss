@@ -1,0 +1,43 @@
+@import "../../sass/typography.scss";
+.common-button {
+  cursor: pointer;
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(213, 243, 242);
+  font-weight: 600;
+}
+.sm {
+  width: 100px;
+  height: 30px;
+}
+.md {
+  width: 150px;
+  height: 40px;
+  font-size: 1rem;
+}
+.lg {
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.disabled-button {
+  color: rgb(128, 127, 127);
+  background-color: rgb(214, 213, 213);
+}
+.text {
+  background-color: transparent;
+  &:hover {
+    background-color: rgba(201, 201, 201, 0.5);
+  }
+}
+.outlined {
+  border: 2px solid rgba(152, 252, 255, 0.39);
+}
+.icon {
+  padding: 0 5px;
+}

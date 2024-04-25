@@ -1,0 +1,70 @@
+.table-container {
+  overflow-x: auto;
+  padding: 1rem 1rem 0 1rem;
+  @media (max-width: 450px) {
+    padding: 0.5rem;
+  }
+  .navigate-page {
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 236, 232);
+    margin-right: 0.2rem;
+    border: 0.5px solid rgb(194, 190, 190);
+  }
+}
+.table-wrapper {
+  height: 32rem;
+  overflow-y: scroll;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e2e8f1;
+      font-weight: bold;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+    .place {
+      width: 2rem;
+    }
+  }
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-info {
+  font-size: 14px;
+}
+
+.go-to-page {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.page-input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.page-size-select {
+  padding: 5px;
+  font-size: 14px;
+}
